@@ -7,6 +7,16 @@ This repo takes timeseries data in csv format as input. Facebook's prophet algor
 
 The csv data files have 2 columns namely ds and y. The first column ds is the timestamp of the timeseries data and second column y is the numerical value.
 
+## Pre-requisites
+Install python version 3.8.3
+
+
+Install conda from https://docs.anaconda.com/anaconda/install/ and add `/home/ubuntu/anaconda3/condabin` to PATH environment variable
+
+
+Run the requirements.txt
+`pip install -r requirements.txt`
+
 ## Prophet-test.py
 
 After importing pandas and plotly graph libraries, the dataframe is initialized with the CSV file.
