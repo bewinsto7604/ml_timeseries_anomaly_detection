@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 from fbprophet import Prophet
-df = pd.read_csv('example_wp_log_peyton_manning.csv')
+df = pd.read_csv('examples/example_wp_log_peyton_manning.csv')
 df.head()
 m = Prophet()
 m.fit(df)
