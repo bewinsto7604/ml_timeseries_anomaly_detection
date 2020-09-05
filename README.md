@@ -46,6 +46,6 @@ Forecast components trend, weekly and yearly seasonality are then displayed
 
 `python prophet-test.py`
 
-This will display the graphs for the example_wp_log_peyton_manning.csv. This csv contains number of visits to Peyton Manning's wiki page by scraping the  Wikipediatrend package in R. It predicts the trends in the visits to the Peyton Manning wiki page for 365 days beyond the last timestamp (2016-01-20) in the csv file. The graph also shows the seasonality.
+This will display the graphs for the `example_wp_log_peyton_manning.csv`. This csv contains number of visits to Peyton Manning's wiki page by scraping the  Wikipediatrend package in R. It predicts the trends in the visits to the Peyton Manning wiki page for 365 days beyond the last timestamp (2016-01-20) in the csv file. The graph also shows the seasonality.
 
 ```
