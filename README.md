@@ -17,6 +17,11 @@ The csv data files have 2 columns namely ds and y. The first column ds is the ti
 `source .venv/bin/activate`
 
 
+- In Linux install the dev tools as shown below
+
+`sudo apt-get install build-essential python-dev python3-dev`
+
+
 - Install conda from https://docs.anaconda.com/anaconda/install/ and add `/home/ubuntu/anaconda3/condabin` to PATH environment variable
 
 
