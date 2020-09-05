@@ -17,7 +17,7 @@ The csv data files have 2 columns namely ds and y. The first column ds is the ti
 `source .venv/bin/activate`
 
 
-- In Linux install the dev tools as shown below
+- If running on Linux then install the dev tools
 
 `sudo apt-get install build-essential python-dev python3-dev`
 
