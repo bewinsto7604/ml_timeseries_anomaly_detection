@@ -14,7 +14,7 @@ Install python version 3.8.3
 Install conda from https://docs.anaconda.com/anaconda/install/ and add `/home/ubuntu/anaconda3/condabin` to PATH environment variable
 
 
-Run the requirements.txt
+Install tools from requirements.txt
 `pip install -r requirements.txt`
 
 If running in Linux then install Mobaxterm.
