@@ -1,6 +1,6 @@
 # Timeseries anomaly detection
 
-This repo takes timeseries data in csv format as input. Facebook's prophet algorithm at its core is comprised of trend, weekly seasonality, yearly seasonality and holidays. The csv files are examples and `prophet-test.py` is the python code that trains the model and plots the graph.
+This repo takes timeseries data in csv format as input. Facebook's prophet algorithm at its core is comprised of trend, weekly seasonality, yearly seasonality and holidays. The csv files are examples and `prophet-test.py` is the python code that trains the model and plots the graph. This code works in MacOS and Linux operating systems. 
 
 
 # CSV files
@@ -16,6 +16,8 @@ Install conda from https://docs.anaconda.com/anaconda/install/ and add `/home/ub
 
 Run the requirements.txt
 `pip install -r requirements.txt`
+
+If running in Linux then install Mobaxterm.
 
 ## Prophet-test.py
 
@@ -40,7 +42,7 @@ Forecast components trend, weekly and yearly seasonality are then displayed
 `fig2 = m.plot_components(forecast)`
 
 
-## Run the python file
+## Run the python file (Run from Mobaxterm if executing on Linux)
 
 `python prophet-test.py`
 
