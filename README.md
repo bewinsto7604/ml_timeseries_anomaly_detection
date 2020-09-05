@@ -15,7 +15,6 @@ Install conda from https://docs.anaconda.com/anaconda/install/ and add /home/ubu
 
 
 Run the requirements.txt
-
 `pip install -r requirements.txt`
 
 ## Prophet-test.py
