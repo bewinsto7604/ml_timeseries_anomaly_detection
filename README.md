@@ -11,7 +11,7 @@ The csv data files have 2 columns namely ds and y. The first column ds is the ti
 Install python version 3.8.3
 
 
-Install conda from https://docs.anaconda.com/anaconda/install/ and add /home/ubuntu/anaconda3/condabin to PATH environment variable
+Install conda from https://docs.anaconda.com/anaconda/install/ and add `/home/ubuntu/anaconda3/condabin` to PATH environment variable
 
 
 Run the requirements.txt
